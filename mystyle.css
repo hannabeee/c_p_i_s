@@ -1,0 +1,159 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #01410a;
+    color: white;
+    position: fixed;
+}
+
+.sidebar-header {
+    padding: 20px;
+    background-color: #013508;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    padding: 15px;
+    border-bottom: 1px solid #013508;
+}
+
+.sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #013508;
+}
+
+.dashboard_content_container {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.dashboard_topNav {
+    background-color: #01410a;
+    padding: 10px;
+    color: white;
+    text-align: right;
+}
+
+.dashboard_topNav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.dashboard_content_main {
+    margin-top: 20px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Table styles */
+#items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#items-table th, #items-table td {
+    border: 1px solid #01410a;
+    padding: 8px;
+    text-align: left;
+}
+
+#items-table th {
+    background-color: #01410a;
+    color: white;
+}
+
+/* Form styles */
+#add-item-form {
+    margin-top: 20px;
+}
+
+#add-item-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#add-item-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#add-item-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #01410a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-item-form button:hover {
+    background-color: #013508;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .sidebar {
+    background-color: #01410a;
+    color: white;
+}
+
+body.dark-mode .sidebar-header {
+    background-color: #013508;
+}
+
+body.dark-mode .sidebar-menu li {
+    border-bottom: 1px solid #013508;
+}
+
+body.dark-mode .sidebar-menu li a {
+    color: white;
+}
+
+body.dark-mode .sidebar-menu li a:hover {
+    background-color: #013508;
+}
+
+body.dark-mode .dashboard_topNav {
+    background-color: #01410a;
+}
+
+body.dark-mode .main-content {
+    color: white;
+}
+
+body.dark-mode #items-table th {
+    background-color: #01410a;
+}
+
+body.dark-mode #items-table td {
+    border: 1px solid #013508;
+}
